@@ -1,0 +1,99 @@
+/* Recipe Tile */
+.recipe-tile {
+    border: 1px solid #dee2e6; /* Light border color */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .recipe-tile .card-title {
+    font-size: 24px; /* Decrease title font size */
+    font-weight: bold;
+    color: #007bff; /* Blue color for title */
+    border-bottom: 2px solid #007bff; /* Blue border bottom */
+    padding-bottom: 10px; /* Add space below title */
+  }
+  
+  .recipe-tile .card-text p {
+    margin-bottom: 10px; /* Decrease margin */
+  }
+  
+  .recipe-tile .btn-primary {
+    font-size: 16px;
+    background-color: #007bff; /* Blue color for button */
+    border-color: #007bff; /* Blue border color */
+  }
+  
+  /* Edit and Delete Icons */
+  .ml-2 {
+    margin-left: 10px;
+    margin-right: 10px; 
+    float: right; /* Move icons to the right */
+    color: #6c757d; /* Gray color for icons */
+    font-size: 24px;
+     /* Increase icon size */
+  }
+  
+  /* Header */
+  .header-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1 {
+    font-size: 36px; /* Increase header font size */
+    margin-top: 30px; /* Increase top margin */
+    margin-bottom: 30px; /* Increase bottom margin */
+  }
+  
+  /* Create Recipe Button */
+.header-container .btn-primary {
+    font-size: 18px;
+    background-color: rgb(74, 150, 212);
+    color: black;
+    position: absolute;
+    top: 40px; /* Adjust the top position as needed */
+    right: 120px; /* Adjust the right position as needed */
+  }
+  /* Delete Modal */
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-footer .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+
+  #no{
+    text-align: center;
+    text-decoration: double;
+    text-shadow: #dee2e6;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .search-container{
+    border-color: #6c757d;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .search-container button{
+    position: absolute;
+    top: 150px;
+    right: 140px;
+    height: 40px;
+    width: 100px;
+  }
+  
+  .search-input {
+    flex: 1;
+    margin-right: 10px;
+    border-style: double;
+  }
